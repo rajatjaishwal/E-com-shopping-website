@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+For running the website you have to part in which we have add with mongodb file and for this two part are there one admin part and user part in this we have add the user page not and admin page 
+and there is default admin user is jaissrajat123@gmail.com password: rajat@iloveu (shortcut)
+to run connect with mongodb in type node ser.js in componenets file  
+ and npm start in react file 
