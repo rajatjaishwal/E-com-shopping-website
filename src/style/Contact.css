@@ -1,0 +1,50 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:4rem;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 15rem;
+    
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(23, 173, 214);;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    color: blue;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .button-icon{
+    
+        display: inline-block;
+        width: 40px; /* Adjust as needed */
+        height: 40px; /* Adjust as needed */
+        border-radius: 50%;
+        overflow: hidden;
+      
+      
+  }

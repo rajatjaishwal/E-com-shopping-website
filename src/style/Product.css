@@ -1,0 +1,110 @@
+/* General Styling */
+.product-container {
+  padding: 40px;
+  
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Product Card */
+.product-card {
+  border:  1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Product Image */
+.product-image {
+  max-width: 100%;
+  height: auto; 
+  border-bottom: 2px solid #ddd;
+}
+
+/* Product Info */
+.product-info {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+/* Product Actions */
+.product-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Price Button */
+.price-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.price-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-container {
+    padding: 20px;
+  }
+
+  .product-grid {
+    gap: 15px;
+  }
+
+  .product-info {
+    padding: 15px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
